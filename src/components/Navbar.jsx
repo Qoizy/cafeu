@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#0b0c2a] text-white px-8 shadow-md fixed w-full top-0 z-50">
+    <header className="bg-[#0b0c2a] text-white px-8  shadow-md fixed w-full top-0 z-50">
       <div className="flex justify-between items-center">
         <div className="flex items-center">
           <img src={logo} alt="Cafeu Logo" className=" w-[100px]" />

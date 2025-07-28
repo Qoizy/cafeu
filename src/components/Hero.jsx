@@ -6,7 +6,7 @@ import bbq from "../assets/BBQ-avocado.png";
 const Hero = () => {
   return (
     <section className="bg-[#0b0c2a] text-white py-16 px-16 flex flex-col lg:flex-row items-center justify-between">
-      <div className="w-full lg:w-1/2 space-y-8 text-center lg:text-left">
+      <div className="w-full lg:w-1/2 mt-12 space-y-8 text-center lg:text-left">
         <div className="inline-block bg-red-100 text-red-600 px-4 py-1 rounded-full text-sm font-semibold">
           Best In Cafeu
         </div>
@@ -45,17 +45,14 @@ const Hero = () => {
 
       <div className="hidden md:flex w-full lg:w-1/2 mt-10 lg:mt-5 justify-center relative">
         <div className="relative w-[300px] md:w-[350px] lg:w-[400px] aspect-square group transition-transform duration-500 hover:scale-105">
-          {/* background halo effect */}
           <div className="absolute -inset-4 rounded-full bg-red-500 blur-3xl opacity-20 z-0" />
 
-          {/* salad image */}
           <img
             src={bbq}
             alt="Salad"
             className="relative z-10 w-full h-full object-contain rounded-full shadow-xl"
           />
 
-          {/* label */}
           <div className="absolute bottom-8 left-6 bg-white text-yellow-600 font-bold px-3 py-1 text-xs rounded-full shadow-lg z-20">
             50% OFF
           </div>

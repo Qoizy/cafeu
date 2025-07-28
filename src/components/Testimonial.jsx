@@ -6,7 +6,6 @@ import testimonial from "../assets/testimonial";
 const Testimonial = () => {
   const [startIndex, setStartIndex] = useState(2);
   const [touchStartX, setTouchStartX] = useState(null);
-  //   const visibleCards = 3;
 
   const handlePrev = () => {
     setStartIndex((prev) => Math.max(prev - 1, 1));
