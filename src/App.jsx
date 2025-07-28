@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Newsletter from "./components/Newsletter";
 import MenuItems from "./components/MenuItems";
 import ComingSoon from "./components/ComingSoon";
-import TeamMember from "./components/teamMember";
+import TeamMember from "./components/TeamMember";
 import Testimonial from "./components/Testimonial";
 import LatestNews from "./components/LatestNews";
 import Footer from "./components/Footer";
